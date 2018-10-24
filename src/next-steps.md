@@ -76,6 +76,18 @@ Try adding the following HTML to a page on this site. After deploying your chang
 </form>
 ```
 
+<form name="contact" action="/thanks" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
 
 <a name="redirects"></a>
 
